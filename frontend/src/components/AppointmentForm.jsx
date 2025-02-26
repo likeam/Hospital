@@ -109,7 +109,7 @@ const AppointmentForm = () => {
           <div>
             <input
               type="text"
-              placeholder="Email"
+              placeholder="Emails"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
